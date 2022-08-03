@@ -12,15 +12,18 @@ html, body{
   font-family: var(--normal);
   background-image: linear-gradient();
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 body{
   background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,7,122,1) 58%, rgba(120,0,255,1) 100%);
 background-attachment: fixed;
 }
+header{
+  padding: 5px;
+}
 nav{
-  margin-top: 5px;
+  margin: 5px;
   align-items: center;
 }
 a{
@@ -28,25 +31,69 @@ a{
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: var(--normal);
-  padding: 10px;
+  padding: 5px;
   font-weight: bolder;
+}
+a:hover{
+  background-color: white;
+  color:rgba(120,0,255,1);
+  border-radius: 5px;
+  transition: 1.2s;
 }
 main{
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 60px;
+  height: 85vh;
 
 }
-
+aside{
+margin: auto;
+}
 
 h1{
   font-family: var(--destaque);
   font-weight: bolder;
   color: white;
+  font-size: 30px;
 }
 p{
   text-align: justify;
   color: white;
+  font-size: var(--normal);
+}
+.estudo{
+text-align: center;
+font-size: 18px;
+background-color: white;
+border-radius: 5px;
+color: blueviolet;
+font-family: var(--destaque);
+font-weight: bolder;
+}
+.estudo:hover{
+background-color: rgba(108, 216, 0, 0.821);
+color: white;
+transition: 0.3ss;
+}
+strong{
+  font-size: 18px;
+}
+strong:hover{
+  background-color: white;
+  color: rgba(120,0,255,1);
+  border-radius: 5px;
+}
+abbr{
+  text-decoration: none;
+}
+
+footer >p{
+text-align: center;
+}
+footer > a {
+  font-family: var(--normal);
+ 
 }
 
